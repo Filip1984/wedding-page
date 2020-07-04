@@ -51,7 +51,7 @@ h2 {
 /*===HEAD===*/
 
 .head {
-  width: 99vw;
+  width: 100vw;
   height: 100vh;
   background: url('img/wedding-photo.jpg') no-repeat 70% center/cover;
   display: table;
@@ -171,7 +171,7 @@ h3 {
 #gifts,
 #location,
 #contact {
-  width: 99vw;
+  width: 100vw;
   text-align: center;
 }
 
@@ -183,7 +183,7 @@ h3 {
 #program,
 #questions,
 #contact {
-  width: 99vw;
+  width: 100vw;
   padding: 1rem;
 }
 
