@@ -1,0 +1,311 @@
+/*
+
+background pattern: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png
+cover photo: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg
+ceremony location: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-ceremony.png
+photoshoot location: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-photoshoot.png
+party location: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-party.png
+gifts: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-gifts.png
+favicon: https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-favicon.png
+
+default text color: #444349 (grey)
+alternate text color: #d2ba87 (gold)
+dark background: hsla(100,0%,0%,.6);
+link color: #bd806e
+link color on hover: #eda087
+footer background color: #606060
+
+
+font-family: 'Great Vibes', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Muli', sans-serif;
+
+*/
+
+* {
+  box-sizing: border-box;
+  letter-spacing: 0.03rem;
+}
+
+body {
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  color: #444349;
+  font-family: 'Muli', sans-serif;
+}
+
+/*===FONT FAMILY===*/
+
+#getting,
+#date,
+#contact,
+#gifts,
+h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1,
+h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+/*===HEAD===*/
+
+.head {
+  width: 99vw;
+  height: 100vh;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+  display: table;
+}
+
+#table {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#wall {
+  text-align: center;
+  background-color: hsla(100, 0%, 0%, .5);
+  padding: 1rem;
+}
+
+#getting,
+#date {
+  font-size: 1.1rem;
+  color: snow;
+}
+
+#getting {
+  padding-top: 0.1rem;
+}
+
+#date {
+  padding-bottom: 0.1rem;
+}
+
+.txt_head_up,
+.txt_head_down {
+  letter-spacing: 0.25rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+/*===HR===*/
+
+hr {
+  margin-top: 2rem;
+}
+
+.hr_white {
+  width: 65%;
+  border: 0.5px solid snow;
+  margin-top: 0.5rem;
+}
+
+.hr_gray {
+  width: 30%;
+  border: 2px solid gray;
+}
+
+.hr_gold {
+  width: 60%;
+  border: 1.5px solid #d2ba87;
+}
+
+/*===FONT===*/
+
+p {
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
+  line-height: 1.6;
+  padding: 0.3rem;
+}
+
+.p_strong {
+  margin-top: 0.5rem;
+}
+
+.p_strong {
+  font-weight: bold;
+}
+
+
+li {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+}
+
+
+.p_italic {
+  font-style: italic;
+  padding-bottom: 2rem;
+}
+
+h2,
+h3 {
+  text-align: center;
+  line-height: 1.4
+}
+
+h2 {
+  font-size: 2.7rem;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 1.45rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-weight: 400;
+}
+
+#location h3 {
+  font-weight: bold;
+}
+
+/*===CONTENT===*/
+
+#gifts,
+#location,
+#contact {
+  width: 99vw;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1,
+#program,
+#questions {
+  color: #d2ba87;
+}
+
+#program,
+#questions {
+  width: 99vw;
+  padding: 1rem;
+  background-color: #606060;
+
+}
+
+img {
+  width: 9.5rem;
+  padding: 1rem
+}
+
+.icon_location {
+  margin: 0.3rem;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+#location p {
+  padding: 0;
+}
+
+/*===foot===*/
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #606060;
+}
+
+small {
+  font-size: 0.8rem;
+  color: snow;
+}
+
+/*===LINK HOVER===*/
+
+a {
+  color: #bd806e;
+}
+
+.writeUs:hover {
+  color: #eda087;
+}
+
+/*===@MEDIA===*/
+
+@media(min-width: 769px) {
+
+  .hr_gold,
+  .hr_gray {
+    display: none;
+  }
+
+  .hr_white {
+    width: 30%;
+  }
+
+  .txt_head_up {
+    text-transform: uppercase;
+    padding-bottom: 0;
+  }
+
+  p {
+    font-size: 1.15rem;
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 7rem;
+    padding-top: 2rem;
+  }
+
+  #questions h3 {
+    text-align: left;
+  }
+
+  #wall {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .question {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  #questions::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  .icon_location {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+  }
+
+  #location::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+  #list {
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+
+  footer {
+    padding: 2rem;
+  }
+
+  small {
+    font-size: 0.9rem;
+  }
+
+}
