@@ -175,9 +175,8 @@ h3 {
 }
 
 #gifts,
-#location,
-  {
-  padding: 2rem
+#location {
+  padding: 2rem;
 }
 
 #program,
@@ -268,7 +267,7 @@ a {
     font-size: 7rem;
     padding-top: 2rem;
   }
-  
+
   h2 {
     font-size: 3rem;
   }
