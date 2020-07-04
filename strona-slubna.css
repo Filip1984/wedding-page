@@ -132,17 +132,15 @@ p {
   font-weight: bold;
 }
 
+.p_italic {
+  font-style: italic;
+  padding-bottom: 2rem;
+}
 
 li {
   font-size: 1.05rem;
   line-height: 1.8;
   letter-spacing: 0.1rem;
-}
-
-
-.p_italic {
-  font-style: italic;
-  padding-bottom: 2rem;
 }
 
 h2,
