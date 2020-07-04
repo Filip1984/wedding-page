@@ -172,21 +172,30 @@ h3 {
 #contact {
   width: 99vw;
   text-align: center;
-  padding: 2rem;
+}
+
+#gifts,
+#location,
+  {
+  padding: 2rem
+}
+
+#program,
+#questions,
+#contact {
+  width: 99vw;
+  padding: 1rem;
+}
+
+#program,
+#questions {
+  background-color: #606060;
 }
 
 h1,
 #program,
 #questions {
   color: #d2ba87;
-}
-
-#program,
-#questions {
-  width: 99vw;
-  padding: 1rem;
-  background-color: #606060;
-
 }
 
 img {
@@ -197,7 +206,6 @@ img {
 .icon_location {
   margin: 0.3rem;
   padding: 0.3rem;
-  text-align: center;
 }
 
 #location p {
@@ -231,6 +239,12 @@ a {
 
 @media(min-width: 769px) {
 
+  #wall {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hr_gold,
   .hr_gray {
     display: none;
@@ -254,15 +268,26 @@ a {
     font-size: 7rem;
     padding-top: 2rem;
   }
+  
+  h2 {
+    font-size: 3rem;
+  }
 
   #questions h3 {
     text-align: left;
   }
 
-  #wall {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+  .icon_location {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  #location::after {
+    content: "";
+    clear: both;
+    display: block;
   }
 
   .question {
@@ -273,20 +298,6 @@ a {
   }
 
   #questions::after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-
-  .icon_location {
-    float: left;
-    width: 31.33%;
-    margin: 1%;
-    padding: 1%;
-    text-align: center;
-  }
-
-  #location::after {
     content: "";
     clear: both;
     display: block;
