@@ -107,7 +107,7 @@ hr {
 
 .hr_gray {
   width: 30%;
-  border: 2px solid gray;
+  border: 2px solid #444349;
 }
 
 .hr_gold {
