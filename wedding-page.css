@@ -39,12 +39,12 @@ h1,
 h2 {
   font-family: 'Great Vibes', Arial, cursive;
 }
+
 h3,
 .txt_head_down,
 .txt_head_up,
 #contact p,
-#gifts p
-{
+#gifts p {
   font-family: 'Libre Baskerville', 'Times New Roman', serif;
 }
 
