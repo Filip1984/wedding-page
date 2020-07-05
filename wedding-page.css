@@ -42,7 +42,9 @@ h2 {
 h3,
 .txt_head_down,
 .txt_head_up,
-#contact p {
+#contact p,
+#gifts p
+{
   font-family: 'Libre Baskerville', 'Times New Roman', serif;
 }
 
