@@ -30,7 +30,7 @@ font-family: 'Muli', sans-serif;
 body {
   background: url('img/background.png') repeat center;
   color: #444349;
-  font-family: 'Libre Baskerville','Times New Roman', serif;
+  font-family: 'Muli', Arial, sans-serif;
 }
 
 /*===FONT FAMILY===*/
@@ -39,9 +39,11 @@ h1,
 h2 {
   font-family: 'Great Vibes', Arial, cursive;
 }
-
-li, footer {
-  font-family: 'Muli', Arial, sans-serif;
+h3,
+.txt_head_down,
+.txt_head_up,
+#contact p {
+  font-family: 'Libre Baskerville', 'Times New Roman', serif;
 }
 
 /*===HEAD===*/
@@ -252,7 +254,6 @@ a:hover {
   }
 
   p {
-    font-size: 1.15rem;
     padding: 0.5rem;
   }
 
