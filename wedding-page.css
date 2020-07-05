@@ -141,7 +141,7 @@ p {
 li {
   font-size: 1.05rem;
   line-height: 1.8;
-  letter-spacing: 0.1rem;
+  font-weight: 600;
 }
 
 h2,
