@@ -30,22 +30,18 @@ font-family: 'Muli', sans-serif;
 body {
   background: url('img/background.png') repeat center;
   color: #444349;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 /*===FONT FAMILY===*/
 
-#getting,
-#date,
-#contact,
-#gifts,
-h3 {
-  font-family: 'Libre Baskerville', serif;
-}
-
 h1,
 h2 {
   font-family: 'Great Vibes', cursive;
+}
+
+li {
+  font-family: 'Muli', sans-serif;
 }
 
 /*===HEAD===*/
